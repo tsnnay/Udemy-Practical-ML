@@ -17,11 +17,13 @@ jupyter:
 
 * Use PCA to narrow down breast-cancer dataset to two principal components
     - For Visualisation
-    - For comparisonin in performance & accuracy compared to direct methods
+    - ~~For comparisonin in performance & accuracy compared to direct methods~~
     
 * Use SVM based classifier for creating Malignant/Benign Classifier
     - Grid Search for optimal parameter selection
-    - Imapct of PCA on classifier accuracy
+    - ~~Imapct of PCA on classifier accuracy~~ [^1]
+
+[^1]: Don't use PCA for model traiing purposes (Not Reccomended)
 
 ```python
 import numpy as np 
